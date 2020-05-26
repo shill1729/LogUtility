@@ -1,0 +1,15 @@
+Package: LogUtility
+Type: Package
+Title: Solve the HJB PDE for optimal log utility for portfolio of risky stock and risk-free bond
+Version: 1.0
+Date: 2020-05-25
+Author: S. Hill
+Maintainer: S. Hill <52792611+shill1729@users.noreply.github.com>
+Description: Solve numerically and exactly the HJB PDE for optimal log utility for portfolio of risky stock 
+        and risk-free bond.
+License: GPL-3
+Imports: Rcpp (>= 1.0.3), RcppEigen (>= 0.3.3.5.0)
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 7.0.2
+Encoding: UTF-8
+SystemRequirements: C++11
