@@ -6,7 +6,9 @@ Date: 2020-05-25
 Author: S. Hill
 Maintainer: S. Hill <52792611+shill1729@users.noreply.github.com>
 Description: Solve numerically and exactly the HJB PDE for optimal log utility for portfolio of risky stock 
-        and risk-free bond.
+        and risk-free bond. Included are two engines: a fully explicit scheme and an implicit-explicit scheme
+        that handles the linear term of the PDE implicitly and the non-linear term explicitly. Stability has not been
+        analyzed yet so, these routines will fail for certain model input or numerical specifications.
 License: GPL-3
 Imports: Rcpp (>= 1.0.3), RcppEigen (>= 0.3.3.5.0)
 LinkingTo: Rcpp, RcppEigen

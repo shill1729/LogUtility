@@ -19,6 +19,8 @@ devtools::install_github("shill1729/LogUtility")
 
 A basic example demonstrating numerical convergence for certain inputs (stability has not been analyzed yet for either scheme).
 
+Note exact_sol will produce a warning about checking a vector in an if condition--it's harmless as long as you do not enter a negative wealth-level and I will fix it eventually.
+
 ```r
 library(LogUtility)
 mu <- 0.10
